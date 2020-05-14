@@ -31,26 +31,35 @@
             this.btn_Menu_Check = new System.Windows.Forms.Button();
             this.btn_Menu_History = new System.Windows.Forms.Button();
             this.btn_Menu_Motivation = new System.Windows.Forms.Button();
-            this.lb_Mentally = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Menu_Check
             // 
-            this.btn_Menu_Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Menu_Check.Location = new System.Drawing.Point(243, 131);
+            this.btn_Menu_Check.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Menu_Check.AutoSize = true;
+            this.btn_Menu_Check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Menu_Check.Font = new System.Drawing.Font("Playfair Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Menu_Check.Location = new System.Drawing.Point(454, 184);
             this.btn_Menu_Check.Name = "btn_Menu_Check";
-            this.btn_Menu_Check.Size = new System.Drawing.Size(100, 40);
+            this.btn_Menu_Check.Size = new System.Drawing.Size(127, 42);
             this.btn_Menu_Check.TabIndex = 0;
-            this.btn_Menu_Check.Text = "CheckUp";
+            this.btn_Menu_Check.Text = "Check Up";
             this.btn_Menu_Check.UseVisualStyleBackColor = true;
             this.btn_Menu_Check.Click += new System.EventHandler(this.btn_Menu_Check_Click);
             // 
             // btn_Menu_History
             // 
-            this.btn_Menu_History.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Menu_History.Location = new System.Drawing.Point(243, 187);
+            this.btn_Menu_History.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Menu_History.AutoSize = true;
+            this.btn_Menu_History.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Menu_History.Font = new System.Drawing.Font("Playfair Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Menu_History.Location = new System.Drawing.Point(454, 280);
             this.btn_Menu_History.Name = "btn_Menu_History";
-            this.btn_Menu_History.Size = new System.Drawing.Size(100, 40);
+            this.btn_Menu_History.Size = new System.Drawing.Size(127, 42);
             this.btn_Menu_History.TabIndex = 1;
             this.btn_Menu_History.Text = "History";
             this.btn_Menu_History.UseVisualStyleBackColor = true;
@@ -58,36 +67,32 @@
             // 
             // btn_Menu_Motivation
             // 
-            this.btn_Menu_Motivation.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Menu_Motivation.Location = new System.Drawing.Point(243, 244);
+            this.btn_Menu_Motivation.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Menu_Motivation.AutoSize = true;
+            this.btn_Menu_Motivation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Menu_Motivation.Font = new System.Drawing.Font("Playfair Display", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Menu_Motivation.Location = new System.Drawing.Point(454, 378);
             this.btn_Menu_Motivation.Name = "btn_Menu_Motivation";
-            this.btn_Menu_Motivation.Size = new System.Drawing.Size(100, 40);
+            this.btn_Menu_Motivation.Size = new System.Drawing.Size(127, 42);
             this.btn_Menu_Motivation.TabIndex = 2;
             this.btn_Menu_Motivation.Text = "Motivation";
             this.btn_Menu_Motivation.UseVisualStyleBackColor = true;
             this.btn_Menu_Motivation.Click += new System.EventHandler(this.btn_Menu_Motivation_Click);
             // 
-            // lb_Mentally
-            // 
-            this.lb_Mentally.AutoSize = true;
-            this.lb_Mentally.Font = new System.Drawing.Font("Playfair Display", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Mentally.Location = new System.Drawing.Point(237, 35);
-            this.lb_Mentally.Name = "lb_Mentally";
-            this.lb_Mentally.Size = new System.Drawing.Size(109, 35);
-            this.lb_Mentally.TabIndex = 3;
-            this.lb_Mentally.Text = "Mentally";
-            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(602, 337);
-            this.Controls.Add(this.lb_Mentally);
+            this.BackgroundImage = global::Mentally.Properties.Resources.Menu;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1004, 515);
             this.Controls.Add(this.btn_Menu_Motivation);
             this.Controls.Add(this.btn_Menu_History);
             this.Controls.Add(this.btn_Menu_Check);
             this.Name = "Menu";
-            this.Text = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -98,6 +103,5 @@
         private System.Windows.Forms.Button btn_Menu_Check;
         private System.Windows.Forms.Button btn_Menu_History;
         private System.Windows.Forms.Button btn_Menu_Motivation;
-        private System.Windows.Forms.Label lb_Mentally;
     }
 }

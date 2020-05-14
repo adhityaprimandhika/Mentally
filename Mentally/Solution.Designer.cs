@@ -32,66 +32,56 @@
             this.lb_Solusi_3 = new System.Windows.Forms.Label();
             this.lb_Solusi_2 = new System.Windows.Forms.Label();
             this.lb_Solusi_1 = new System.Windows.Forms.Label();
-            this.lb_Solusi = new System.Windows.Forms.Label();
             this.btn_Save = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lb_Solusi_4
             // 
             this.lb_Solusi_4.AutoSize = true;
-            this.lb_Solusi_4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Solusi_4.Location = new System.Drawing.Point(284, 194);
+            this.lb_Solusi_4.Font = new System.Drawing.Font("Playfair Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Solusi_4.Location = new System.Drawing.Point(352, 296);
             this.lb_Solusi_4.Name = "lb_Solusi_4";
-            this.lb_Solusi_4.Size = new System.Drawing.Size(14, 20);
+            this.lb_Solusi_4.Size = new System.Drawing.Size(21, 28);
             this.lb_Solusi_4.TabIndex = 9;
             this.lb_Solusi_4.Text = "-";
             // 
             // lb_Solusi_3
             // 
             this.lb_Solusi_3.AutoSize = true;
-            this.lb_Solusi_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Solusi_3.Location = new System.Drawing.Point(284, 159);
+            this.lb_Solusi_3.Font = new System.Drawing.Font("Playfair Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Solusi_3.Location = new System.Drawing.Point(352, 253);
             this.lb_Solusi_3.Name = "lb_Solusi_3";
-            this.lb_Solusi_3.Size = new System.Drawing.Size(14, 20);
+            this.lb_Solusi_3.Size = new System.Drawing.Size(21, 28);
             this.lb_Solusi_3.TabIndex = 8;
             this.lb_Solusi_3.Text = "-";
             // 
             // lb_Solusi_2
             // 
             this.lb_Solusi_2.AutoSize = true;
-            this.lb_Solusi_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Solusi_2.Location = new System.Drawing.Point(284, 128);
+            this.lb_Solusi_2.Font = new System.Drawing.Font("Playfair Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Solusi_2.Location = new System.Drawing.Point(352, 215);
             this.lb_Solusi_2.Name = "lb_Solusi_2";
-            this.lb_Solusi_2.Size = new System.Drawing.Size(14, 20);
+            this.lb_Solusi_2.Size = new System.Drawing.Size(21, 28);
             this.lb_Solusi_2.TabIndex = 7;
             this.lb_Solusi_2.Text = "-";
             // 
             // lb_Solusi_1
             // 
             this.lb_Solusi_1.AutoSize = true;
-            this.lb_Solusi_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Solusi_1.Location = new System.Drawing.Point(284, 99);
+            this.lb_Solusi_1.Font = new System.Drawing.Font("Playfair Display", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Solusi_1.Location = new System.Drawing.Point(352, 179);
             this.lb_Solusi_1.Name = "lb_Solusi_1";
-            this.lb_Solusi_1.Size = new System.Drawing.Size(14, 20);
+            this.lb_Solusi_1.Size = new System.Drawing.Size(21, 28);
             this.lb_Solusi_1.TabIndex = 6;
             this.lb_Solusi_1.Text = "-";
             // 
-            // lb_Solusi
-            // 
-            this.lb_Solusi.AutoSize = true;
-            this.lb_Solusi.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Solusi.Location = new System.Drawing.Point(340, 31);
-            this.lb_Solusi.Name = "lb_Solusi";
-            this.lb_Solusi.Size = new System.Drawing.Size(80, 29);
-            this.lb_Solusi.TabIndex = 5;
-            this.lb_Solusi.Text = "Solusi";
-            // 
             // btn_Save
             // 
-            this.btn_Save.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Save.Location = new System.Drawing.Point(333, 245);
+            this.btn_Save.Font = new System.Drawing.Font("Playfair Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Save.Location = new System.Drawing.Point(472, 388);
+            this.btn_Save.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Save.Name = "btn_Save";
-            this.btn_Save.Size = new System.Drawing.Size(87, 32);
+            this.btn_Save.Size = new System.Drawing.Size(87, 39);
             this.btn_Save.TabIndex = 10;
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = true;
@@ -99,17 +89,22 @@
             // 
             // Solution
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 320);
+            this.AutoSize = true;
+            this.BackgroundImage = global::Mentally.Properties.Resources.Solusi;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1004, 515);
             this.Controls.Add(this.btn_Save);
             this.Controls.Add(this.lb_Solusi_4);
             this.Controls.Add(this.lb_Solusi_3);
             this.Controls.Add(this.lb_Solusi_2);
             this.Controls.Add(this.lb_Solusi_1);
-            this.Controls.Add(this.lb_Solusi);
+            this.DoubleBuffered = true;
+            this.Font = new System.Drawing.Font("Playfair Display", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Solution";
-            this.Text = "Solution";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,7 +116,6 @@
         private System.Windows.Forms.Label lb_Solusi_3;
         private System.Windows.Forms.Label lb_Solusi_2;
         private System.Windows.Forms.Label lb_Solusi_1;
-        private System.Windows.Forms.Label lb_Solusi;
         private System.Windows.Forms.Button btn_Save;
     }
 }

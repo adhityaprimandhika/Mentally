@@ -36,8 +36,12 @@
             // 
             // btn_Back_History
             // 
-            this.btn_Back_History.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Back_History.Location = new System.Drawing.Point(267, 286);
+            this.btn_Back_History.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Back_History.AutoSize = true;
+            this.btn_Back_History.Font = new System.Drawing.Font("Playfair Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Back_History.Location = new System.Drawing.Point(472, 424);
             this.btn_Back_History.Name = "btn_Back_History";
             this.btn_Back_History.Size = new System.Drawing.Size(85, 34);
             this.btn_Back_History.TabIndex = 5;
@@ -47,8 +51,12 @@
             // 
             // btn_showHistory
             // 
-            this.btn_showHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_showHistory.Location = new System.Drawing.Point(267, 241);
+            this.btn_showHistory.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_showHistory.AutoSize = true;
+            this.btn_showHistory.Font = new System.Drawing.Font("Playfair Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_showHistory.Location = new System.Drawing.Point(472, 370);
             this.btn_showHistory.Name = "btn_showHistory";
             this.btn_showHistory.Size = new System.Drawing.Size(85, 34);
             this.btn_showHistory.TabIndex = 4;
@@ -58,24 +66,31 @@
             // 
             // dtgView
             // 
+            this.dtgView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dtgView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgView.Location = new System.Drawing.Point(-2, -1);
+            this.dtgView.Location = new System.Drawing.Point(82, 128);
             this.dtgView.Name = "dtgView";
-            this.dtgView.Size = new System.Drawing.Size(624, 236);
+            this.dtgView.Size = new System.Drawing.Size(841, 236);
             this.dtgView.TabIndex = 3;
             // 
-            // History
+            // ShowHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 332);
+            this.BackgroundImage = global::Mentally.Properties.Resources.History;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1004, 515);
             this.Controls.Add(this.btn_Back_History);
             this.Controls.Add(this.btn_showHistory);
             this.Controls.Add(this.dtgView);
-            this.Name = "History";
-            this.Text = "History";
+            this.DoubleBuffered = true;
+            this.Name = "ShowHistory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.dtgView)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

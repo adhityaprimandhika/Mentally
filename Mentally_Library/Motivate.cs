@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace Mentally_Library
 {
     public class Motivate
     {
-        private string[] DaftarMotivasi = new string[]
+        private static string[] DaftarMotivasi = new string[]
         {"Jangan menyerah","Jangan terus bersedih","Jika kamu jatuh kamu harus bangkit lebih banyak","Selalu berpikir positif","Semesta ingin kau lebih kuat"};
         public string showMotivasi(string motivasi)
         {

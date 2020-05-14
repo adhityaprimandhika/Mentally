@@ -36,7 +36,7 @@ namespace Mentally
                     };
                     db.Accounts.Add(account);
                     db.SaveChanges();
-                    MessageBox.Show("Account created");
+                    MessageBox.Show("Account Created");
                 }
             }
             else

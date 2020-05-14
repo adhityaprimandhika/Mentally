@@ -12,23 +12,15 @@ namespace Mentally
 {
     public partial class Start : Form
     {
-        //Tampilan awal
         public Start()
         {
             InitializeComponent();
         }
 
-        private void btn_Start_Login_Click(object sender, EventArgs e)
+        private void btn_Start_Click(object sender, EventArgs e)
         {
             Login login = new Login();
             login.Show();
-            this.Hide();
-        }
-
-        private void btn_Start_Register_Click(object sender, EventArgs e)
-        {
-            Register register = new Register();
-            register.Show();
             this.Hide();
         }
     }

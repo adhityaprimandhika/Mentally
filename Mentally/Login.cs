@@ -62,5 +62,12 @@ namespace Mentally
             start.Show();
             this.Hide();
         }
+
+        private void lb_Login_Register_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Close();
+        }
     }
 }
